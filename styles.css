@@ -1,5 +1,5 @@
 @font-face {
-    src: url('/Fonts/PokemonHollow.ttf');
+    src: url('./assets/PokemonHollow.ttf');
     font-family: pokemon;
 }
 .page {
@@ -44,7 +44,7 @@
     width: 75em;
     background-color: black;
     color: white; 
-    background-image: url('../API_Project/assets/pokeball.jpg');
+    background-image: url('./assets/pokeball.jpg');
     background-size: 70em 30em;
     background-repeat: no-repeat;
     background-position-y: -4em;
