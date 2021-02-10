@@ -1,0 +1,75 @@
+@font-face {
+    src: url('/Fonts/PokemonHollow.ttf');
+    font-family: pokemon;
+}
+.page {
+  
+}
+
+.mainC {
+    height: 26em;
+    width: 75em;
+   background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/06/Pokemon-Black-And-White-Photo-HD.png");
+   background-repeat: no-repeat;
+   background-position-x: center;
+   background-position-y: 4em;
+   background-size: 60em 30em;
+   background-color: black;
+   text-align: center;
+}
+
+.searchLabel {
+    color: #FFCC01;
+    font-size: 3em;
+    font-family:  pokemon;
+    position: relative;
+}
+
+#searchBtn {
+    border: 2px solid #FFCC01;
+    background-color: black;
+    color: gray;
+    border-radius: 20%;
+}
+
+.search {
+    background-color:gray;
+    color: white;
+    border: 2px solid white;
+    width: 14em;
+}
+
+.infoC {
+    height: 28em;
+    width: 75em;
+    background-color: black;
+    color: white; 
+    background-image: url('../API_Project/assets/pokeball.jpg');
+    background-size: 70em 30em;
+    background-repeat: no-repeat;
+    background-position-y: -4em;
+    text-align: center;
+    position: relative;
+    bottom: 1.3em;
+    z-index: -1;
+}
+
+h2 {
+    font-family: pokemon;
+    position: relative;
+    right: 3em;
+}
+
+h4 {
+    position: relative;
+    bottom: 1em;
+    right: 10em;
+}
+
+img {
+    height: 20em;
+    width: 20em;
+    position: relative;
+    bottom: 5em;
+    left: 3em;
+}
